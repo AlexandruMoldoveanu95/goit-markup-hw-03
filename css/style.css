@@ -221,8 +221,8 @@ body {
   max-width: 1200px;
   margin: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: auto;
+  padding-right: auto;
 }
 .page-header {
   display: block;
