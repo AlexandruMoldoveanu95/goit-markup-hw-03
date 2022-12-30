@@ -219,14 +219,14 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: auto;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: auto;
+  margin: 0px auto;
 }
 .page-header {
   display: block;
   outline: 1px solid tomato;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .page-header > .container {
   display: flex;
@@ -318,6 +318,7 @@ body {
   flex-grow: 0;
   flex-shrink: 1;
   outline: 1px solid tomato;
+  flex-wrap: wrap;
 }
 .page-footer {
   padding: 60px 0px;
@@ -377,4 +378,9 @@ body {
 }
 .section {
   padding: 94px 0px;
+}
+.container-page {
+  display: block;
+  width: 100%;
+  margin: auto;
 }

@@ -9,191 +9,214 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>WebStudio</title>
   </head>
   <body>
-    <!--my header-->
-    <header class="page-header">
-      <div class="container">
-        <a href="./index.html" class="logo-link link"
-          ><span class="logo-item">Web</span>Studio</a
-        >
-        <!--navigation to other pages-->
-        <nav class="nav-list">
-          <ul class="unstyled-list menu-nav">
-            <li class="menu-nav-item">
-              <a class="nav-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="menu-nav-item">
-              <a class="nav-link link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="menu-nav-item">
-              <a class="nav-link link" href="#contacts.html">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <!--Contact links-->
-        <ul class="unstyled-list contacts-nav-list">
-          <li class="contacts-nav-item">
-            <a class="contact-nav-mail link" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="contacts-nav-item">
-            <a class="contact-nav-tel link" href="tel:+1212-772-4150">
-              +1 212-772-4150</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
-
-    <!--The unique content of the page-->
-    <main class="main-page">
-      <!--Page title-->
-      <div class="hero-section">
+    <div class="container-page">
+      <!--my header-->
+      <header class="page-header">
         <div class="container">
-          <h1 class="hero-title">
-            EFFECTIVE SOLUTIONS FOR <br />
-            YOUR BUSINESS
-          </h1>
-          <button class="button-active" type="button">
-            Request our service
-          </button>
-        </div>
-      </div>
-
-      <!--The first section-->
-      <section class="section-decisions section">
-        <div class="container">
-          <ul class="unstyled-list section-list">
-            <li class="section-list-item">
-              <h3 class="section-title">ATTENTION TO DETAILS</h3>
-              <p class="section-text">
-                We go into all the details and processes of your business to
-                develop a customized solution.
-              </p>
-            </li>
-            <li class="section-list-item">
-              <h3 class="section-title">PUNCTUALITY</h3>
-              <p class="section-text">
-                With us, you can feel safe and secure. An important principle of
-                the company: respect your time and deadlines.
-              </p>
-            </li>
-            <li class="section-list-item">
-              <h3 class="section-title">PLANNING</h3>
-              <p class="section-text">
-                You will be able to observe and participate in every phase of
-                solution development and implementation.
-              </p>
-            </li>
-            <li class="section-list-item">
-              <h3 class="section-title">mODERN TECHNOLOGIES</h3>
-              <p class="section-text">
-                We use innovative tools to solve assigned tasks. It's time to
-                simplify work processes.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--The second section-->
-      <section class="section-gallery section">
-        <div class="container">
-          <h2 class="section-work">What we do</h2>
-          <ul class="unstyled-list gallery-list">
-            <li class="gallery-list-item">
-              <img src="images/img01.jpg" alt="box1" width="370" />
-            </li>
-            <li class="gallery-list-item">
-              <img src="images/img02.jpg" alt="box2" width="370" />
-            </li>
-            <li class="gallery-list-item">
-              <img src="images/img03.jpg" alt="box3" width="370" />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--The third section-->
-      <section class="section-team section">
-        <div class="container">
-          <h2 class="section-work">Our Team</h2>
-          <ul class="unstyled-list section-list">
-            <li class="section-team-item">
-              <img
-                src="images/Our-Team/img(1).jpg"
-                alt="Christopher Walker"
-                width="260"
-              />
-              <h3 class="name-person">Christopher Walker</h3>
-              <p class="function-employee">Product Designer</p>
-            </li>
-            <li class="section-team-item">
-              <img
-                src="images/Our-Team/img(2).jpg"
-                alt="Kylie Evans"
-                width="260"
-              />
-              <h3 class="name-person">Kylie Evans</h3>
-              <p class="function-employee">Frontend Developer</p>
-            </li>
-            <li class="section-team-item">
-              <img
-                src="images/Our-Team/img(3).jpg"
-                alt="Ryan Harris"
-                width="260"
-              />
-              <h3 class="name-person">Ryan Harris</h3>
-              <p class="function-employee">Marketing</p>
-            </li>
-            <li class="section-team-item">
-              <img
-                src="images/Our-Team/img(4).jpg"
-                alt="Tyler Moore"
-                width="260"
-              />
-              <h3 class="name-person">Tyler Moore</h3>
-              <p class="function-employee">UI Designer</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <!--footer pages-->
-    <footer class="page-footer">
-      <div class="container">
-        <!--logo pages-->
-        <a class="logo-footer link" href="index.html">
-          <span class="logo-footer-item">Web</span>Studio</a
-        >
-
-        <!--address and contact details-->
-        <address class="address-nav">
-          <ul class="unstyled-list footer-list-main">
-            <li class="footer-list-item">
-              <a
-                class="link address-nav-location"
-                href="https://goo.gl/maps/WX2whz8Sf4KxUwsg9"
-                target="_blank"
-                >695 Park Ave, NY 10065, USA</a
-              >
-            </li>
-            <li class="footer-list-item">
-              <a class="link footer-contacts" href="mailto:info@devstudio.com:"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="footer-list-item">
-              <a class="link footer-contacts" href="tel:+1212-772-4150"
-                >+1 212-772-4150
+          <a href="./index.html" class="logo-link link"
+            ><span class="logo-item">Web</span>Studio</a
+          >
+          <!--navigation to other pages-->
+          <nav class="nav-list">
+            <ul class="unstyled-list menu-nav">
+              <li class="menu-nav-item">
+                <a class="nav-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a class="nav-link link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a class="nav-link link" href="#contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <!--Contact links-->
+          <ul class="unstyled-list contacts-nav-list">
+            <li class="contacts-nav-item">
+              <a class="contact-nav-mail link" href="mailto:info@devstudio.com">
+                info@devstudio.com
               </a>
             </li>
+            <li class="contacts-nav-item">
+              <a class="contact-nav-tel link" href="tel:+1212-772-4150">
+                +1 212-772-4150</a
+              >
+            </li>
           </ul>
-        </address>
-      </div>
-    </footer>
+        </div>
+      </header>
+
+      <!--The unique content of the page-->
+      <main class="main-page">
+        <!--Page title-->
+        <div class="hero-section">
+          <div class="container">
+            <h1 class="hero-title">
+              EFFECTIVE SOLUTIONS FOR <br />
+              YOUR BUSINESS
+            </h1>
+            <button class="button-active" type="button">
+              Request our service
+            </button>
+          </div>
+        </div>
+
+        <!--The first section-->
+        <section class="section-decisions section">
+          <div class="container">
+            <ul class="unstyled-list section-list">
+              <li class="section-list-item">
+                <h3 class="section-title">ATTENTION TO DETAILS</h3>
+                <p class="section-text">
+                  We go into all the details and processes of your business to
+                  develop a customized solution.
+                </p>
+              </li>
+              <li class="section-list-item">
+                <h3 class="section-title">PUNCTUALITY</h3>
+                <p class="section-text">
+                  With us, you can feel safe and secure. An important principle
+                  of the company: respect your time and deadlines.
+                </p>
+              </li>
+              <li class="section-list-item">
+                <h3 class="section-title">PLANNING</h3>
+                <p class="section-text">
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </li>
+              <li class="section-list-item">
+                <h3 class="section-title">mODERN TECHNOLOGIES</h3>
+                <p class="section-text">
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--The second section-->
+        <section class="section-gallery section">
+          <div class="container">
+            <h2 class="section-work">What we do</h2>
+            <ul class="unstyled-list gallery-list">
+              <li class="gallery-list-item">
+                <img
+                  src="images/img01.jpg"
+                  class="img-photo"
+                  alt="box1"
+                  width="370"
+                />
+              </li>
+              <li class="gallery-list-item">
+                <img
+                  src="images/img02.jpg"
+                  class="img-photo"
+                  alt="box2"
+                  width="370"
+                />
+              </li>
+              <li class="gallery-list-item">
+                <img
+                  src="images/img03.jpg"
+                  class="img-photo"
+                  alt="box3"
+                  width="370"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--The third section-->
+        <section class="section-team section">
+          <div class="container">
+            <h2 class="section-work">Our Team</h2>
+            <ul class="unstyled-list section-list">
+              <li class="section-team-item">
+                <img
+                  src="images/Our-Team/img(1).jpg"
+                  alt="Christopher Walker"
+                  width="260"
+                />
+                <h3 class="name-person">Christopher Walker</h3>
+                <p class="function-employee">Product Designer</p>
+              </li>
+              <li class="section-team-item">
+                <img
+                  src="images/Our-Team/img(2).jpg"
+                  alt="Kylie Evans"
+                  width="260"
+                />
+                <h3 class="name-person">Kylie Evans</h3>
+                <p class="function-employee">Frontend Developer</p>
+              </li>
+              <li class="section-team-item">
+                <img
+                  src="images/Our-Team/img(3).jpg"
+                  alt="Ryan Harris"
+                  width="260"
+                />
+                <h3 class="name-person">Ryan Harris</h3>
+                <p class="function-employee">Marketing</p>
+              </li>
+              <li class="section-team-item">
+                <img
+                  src="images/Our-Team/img(4).jpg"
+                  alt="Tyler Moore"
+                  width="260"
+                />
+                <h3 class="name-person">Tyler Moore</h3>
+                <p class="function-employee">UI Designer</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <!--footer pages-->
+      <footer class="page-footer">
+        <div class="container">
+          <!--logo pages-->
+          <a class="logo-footer link" href="index.html">
+            <span class="logo-footer-item">Web</span>Studio</a
+          >
+
+          <!--address and contact details-->
+          <address class="address-nav">
+            <ul class="unstyled-list footer-list-main">
+              <li class="footer-list-item">
+                <a
+                  class="link address-nav-location"
+                  href="https://goo.gl/maps/WX2whz8Sf4KxUwsg9"
+                  target="_blank"
+                  >695 Park Ave, NY 10065, USA</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="link footer-contacts"
+                  href="mailto:info@devstudio.com:"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <a class="link footer-contacts" href="tel:+1212-772-4150"
+                  >+1 212-772-4150
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
