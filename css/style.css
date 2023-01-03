@@ -360,6 +360,7 @@ body {
   flex-shrink: 1;
   line-height: 0px;
   background-color: #ffffff;
+  border: 1px solid#EEEEEE;
 }
 .cards {
   padding: 20px 24px;
