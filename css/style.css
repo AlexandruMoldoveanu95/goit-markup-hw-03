@@ -360,11 +360,12 @@ body {
   flex-shrink: 1;
   line-height: 0px;
   background-color: #ffffff;
-  border: 1px solid#EEEEEE;
 }
 .cards {
   padding: 20px 24px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid#eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .section {
   padding: 94px 0px;
